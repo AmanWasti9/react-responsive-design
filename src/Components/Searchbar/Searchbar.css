@@ -1,0 +1,58 @@
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  width: 100%;
+  justify-content: start;
+}
+
+.text-field-root .MuiOutlinedInput-root,
+.text-field-root2 .MuiOutlinedInput-root {
+  border-radius: 30px;
+  height: 40px;
+  border-color: black;
+  width: 100%;
+}
+
+.text-field-root {
+  flex: 1 1 60%; /* Adjusts width dynamically based on available space */
+  max-width: 400px; /* Maximum width for larger screens */
+}
+
+.text-field-root2 {
+  flex: 1 1 40%; /* Adjusts width dynamically based on available space */
+  max-width: 350px; /* Maximum width for larger screens */
+}
+
+/* border color */
+.text-field-root .MuiOutlinedInput-notchedOutline,
+.text-field-root2 .MuiOutlinedInput-notchedOutline {
+  border-color: black;
+}
+
+/* Hover state */
+.text-field-root:hover .MuiOutlinedInput-notchedOutline,
+.text-field-root2:hover .MuiOutlinedInput-notchedOutline {
+  border-color: black;
+}
+
+/* Focused state */
+.text-field-root.Mui-focused .MuiOutlinedInput-notchedOutline,
+.text-field-root2.Mui-focused .MuiOutlinedInput-notchedOutline,
+.text-field-root .Mui-focused .MuiOutlinedInput-notchedOutline,
+.text-field-root2 .Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: black !important;
+}
+
+/* Input text color */
+.text-field-input {
+  color: black;
+}
+
+/* Mobile view adjustments */
+@media only screen and (max-width: 600px) {
+  .searchbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
