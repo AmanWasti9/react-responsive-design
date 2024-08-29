@@ -38,14 +38,14 @@
 
 .green {
   text-align: center;
-  border: 2px solid rgb(99, 241, 99);
-  color: rgb(99, 241, 99);
+  border: 2px solid #8bbe1b;
+  color: #8bbe1b;
 }
 
 .sigreen {
   text-align: center;
-  border: 2px solid #16dbdb;
-  color: #16dbdb;
+  border: 2px solid #30d5c8;
+  color: #30d5c8;
 }
 
 .yellow {

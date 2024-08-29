@@ -3,6 +3,7 @@ import Searchbar from "./Components/Searchbar/Searchbar";
 import CustomButton from "./Components/CustomButton/CustomButton";
 import Sidebar from "./Components/Sidebar/Sidebar";
 import { BiFilterAlt } from "react-icons/bi";
+import JobDetails from "./Components/JobDetails/JobDetails";
 
 function App() {
   return (
@@ -25,7 +26,9 @@ function App() {
         <span> Sort by: Relevance</span>
       </div>
 
-      <main>{/* <JobDetails /> */}</main>
+      <main>
+        <JobDetails />
+      </main>
       <div id="sidebar">
         <Sidebar
           border={"none"}

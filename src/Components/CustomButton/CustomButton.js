@@ -11,6 +11,7 @@ export default function CustomButton({ btnText, padding }) {
           padding: padding,
           border: "none",
           borderRadius: "30px",
+          fontSize: "17px",
         }}
       >
         {btnText}
