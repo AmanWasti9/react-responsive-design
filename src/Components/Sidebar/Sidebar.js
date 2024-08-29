@@ -94,7 +94,7 @@ export default function Sidebar({
 
       <div className="hire-btns responsive-flex">
         <span className="yellow">Learn More</span>
-        <span className="span white">46 minutes ago</span>
+        <span className="white">46 minutes ago</span>
       </div>
     </div>
   );

@@ -48,14 +48,23 @@
   color: #30d5c8;
 }
 
-.yellow {
+.yellow,
+.white {
   flex-grow: 1;
   border-radius: 30px;
   padding: 10px 15px;
   text-align: center;
+  cursor: pointer;
+}
+
+.yellow {
   background-color: #ff9900;
   color: white;
-  cursor: pointer;
+}
+
+.white {
+  background-color: white;
+  color: black;
 }
 
 .text-container {
