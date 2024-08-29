@@ -1,0 +1,102 @@
+.SmCards-main {
+  gap: 15px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.profile-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.responsive-flex {
+  flex-wrap: wrap;
+}
+
+.responsive-flex span {
+  align-items: center;
+  font-size: 1rem;
+}
+
+.hire-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.hire-btns .span {
+  flex-grow: 1;
+  text-align: center;
+  border-radius: 30px;
+  padding: 5px 10px;
+}
+
+.green {
+  text-align: center;
+  border: 2px solid rgb(99, 241, 99);
+  color: rgb(99, 241, 99);
+}
+
+.sigreen {
+  text-align: center;
+  border: 2px solid #16dbdb;
+  color: #16dbdb;
+}
+
+.yellow {
+  flex-grow: 1;
+  border-radius: 30px;
+  padding: 10px 15px;
+  text-align: center;
+  background-color: #ff9900;
+  color: white;
+  cursor: pointer;
+}
+
+.text-container {
+  position: relative;
+  max-height: 4.5em;
+  overflow: hidden;
+}
+
+.text-container .text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.more-text {
+  display: inline;
+  color: blue;
+  font-weight: bold;
+}
+
+.text-container.truncated .more-text {
+  display: inline;
+}
+
+.profile-container {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid rgb(201, 199, 199);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-background-layout-main-td853a, #f2f3f3);
+}
+
+@media only screen and (max-width: 400px) {
+  .hire-btns {
+    flex-direction: column;
+  }
+}

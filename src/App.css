@@ -9,10 +9,12 @@ body {
   display: grid;
   height: 100vh;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.02fr 0.02fr;
+  grid-template-rows: 0.02fr 0.06fr 0.02fr 1.5fr;
   grid-template-areas:
     "searchbar searchbar searchbar searchbar"
-    "btn btn btn btn";
+    "btn btn btn btn"
+    "filter filter filter filter"
+    "sidebar main main main";
   grid-gap: 1rem;
 }
 
@@ -24,13 +26,39 @@ body {
   grid-area: btn;
 }
 
+#filter {
+  grid-area: filter;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+main {
+  grid-area: main;
+  width: 98%;
+}
+
+#sidebar {
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 98%;
+  margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 768px) {
   .container {
     grid-template-columns: 1fr;
-    grid-template-rows: 0.02fr 0.02fr;
+    grid-template-rows: 0.02fr 0.02fr 0.02fr 0.02fr 1.5fr;
     grid-template-areas:
       "searchbar"
-      "btn";
+      "btn"
+      "filter"
+      "sidebar"
+      "main";
   }
 }
 
@@ -56,6 +84,16 @@ body {
 
 .color-black {
   color: black;
+}
+
+.color-grey {
+  color: grey;
+}
+
+.image {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
 }
 
 @media only screen and (max-width: 768px) {
