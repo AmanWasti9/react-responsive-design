@@ -23,6 +23,6 @@ This project is designed to demonstrate the implementation of a static screen wi
 Visit http://localhost:3000 to see the application in action.
 
 ## Branches
-master: Main branch with the complete and merged code.
-sidebar: Contains the implementation of the sidebar component.
-job-details: Contains the implementation of the job details component.
+- **master:** Main branch with the complete and merged code.
+- **sidebar:** Contains the implementation of the sidebar component.
+- **job-details:** Contains the implementation of the job details component.
