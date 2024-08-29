@@ -22,6 +22,11 @@ This project is designed to demonstrate the implementation of a static screen wi
 
 Visit http://localhost:3000 to see the application in action.
 
+## Live Demo
+You can view the live version of the project hosted on Vercel:
+
+https://react-responsive-design-dusky.vercel.app/
+
 ## Branches
 - **master:** Main branch with the complete and merged code.
 - **sidebar:** Contains the implementation of the sidebar component.
